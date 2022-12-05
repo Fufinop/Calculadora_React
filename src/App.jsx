@@ -4,7 +4,7 @@ import Calculator from './components/Calculator';
 
 function App() {
 	return (
-		<div>
+		<div className="h-screen bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r ">
 			<Header />
 			<Calculator />
 			<Footer />

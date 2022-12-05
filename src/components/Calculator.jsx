@@ -2,8 +2,9 @@ import Display from './Display';
 import PanelDeBotones from './ButtonPanel';
 import { Component } from 'react';
 import operaciones from '../logic/operations';
+import '../styles/App.css';
 
-class App extends Component {
+class Calculator extends Component {
 	state = {
 		total: null,
 		siguiente: null,
@@ -15,7 +16,7 @@ class App extends Component {
 
 	render() {
 		return (
-			<div className="">
+			<div className="comoponent-app ">
 				<Display
 					value={this.state.siguiente || this.state.total || '0'}
 				/>
@@ -25,4 +26,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default Calculator;

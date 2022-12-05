@@ -1,4 +1,5 @@
 import Button from './Button';
+import '../styles/PanelDeBotones.css';
 
 export default function panelDeBotones({ clickHandle }) {
 	const handleClick = (nombreDeBoton) => {
