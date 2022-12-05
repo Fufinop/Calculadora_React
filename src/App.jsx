@@ -1,12 +1,12 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Calculadora from './components/Calculadora';
+import Calculator from './components/Calculator';
 
 function App() {
 	return (
 		<div>
 			<Header />
-			<Calculadora />
+			<Calculator />
 			<Footer />
 		</div>
 	);
